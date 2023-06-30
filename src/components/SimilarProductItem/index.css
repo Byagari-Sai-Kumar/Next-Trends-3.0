@@ -1,0 +1,62 @@
+.similarProductListItem {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.similarImage {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.similarTitle {
+  align-self: flex-start;
+  text-align: left;
+  font-size: 22px;
+  color: #1e293b;
+}
+
+.similarAuthor {
+  align-self: flex-start;
+  text-align: left;
+  font-size: 18px;
+  color: #1e293b;
+  margin-top: 0px;
+}
+
+.similarRateAndRatingContainer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.similarPrice {
+  align-self: flex-start;
+  text-align: left;
+  font-size: 18px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.ratingContainer {
+  width: 30%;
+  height: 40px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratingStar2 {
+  height: 60%;
+}
